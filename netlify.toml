@@ -1,6 +1,3 @@
-[build]
-command = "vite build"
-build = "build"
 
 [[redirects]]
 from = "/*"
