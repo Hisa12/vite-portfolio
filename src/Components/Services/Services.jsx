@@ -1,5 +1,5 @@
 import "./Services.css";
-import services_data from "../../assets/Services_Data";
+import services_data from "../../assets/services_data";
 
 const Services = () => {
   return (

@@ -1,5 +1,6 @@
 import "./MyWork.css";
 import mywork_data from "../../assets/mywork_data";
+
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
