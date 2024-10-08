@@ -1,3 +1,7 @@
+[build]
+command = "vite build"
+build = "build"
+
 [[redirects]]
 from = "/*"
 to = "/index.html"
