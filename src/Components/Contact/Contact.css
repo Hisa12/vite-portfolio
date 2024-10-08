@@ -83,23 +83,20 @@
 @media (max-width: 768px) {
   .contact {
     gap: 50px;
-    margin: 50px 30px;
+    margin: 100px 60px;
     align-items: start;
   }
   .contact-title h1 {
     padding: 0;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
   }
-  .contact-title img {
-    width: 130px;
-    margin-right: -20px;
-  }
+
   .contact-section {
     flex-direction: column;
   }
   .contact-center h1 {
-    font-size: 50px;
+    font-size: 28px;
   }
   .contact-center p {
     font-size: 18px;
@@ -112,7 +109,6 @@
   }
   .contact-center {
     align-items: start;
-
     text-align: start;
     flex-direction: column;
   }

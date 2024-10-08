@@ -144,27 +144,43 @@
 
 @media (max-width: 768px) {
   .about {
-    gap: 80px;
-    margin: 50px 70px;
+    gap: 60px;
+    margin: 50px 60px;
     align-items: start;
   }
   .about-title h1 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 0;
   }
 
   .about-left {
     display: none;
   }
+  .about-right {
+    gap: 50px;
+  }
   .about-para {
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
   }
+
+  .about-skill {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    transition: 0.3s;
+  }
+
   .about-skill p {
-    font-size: 20px;
+    color: #fff;
+    min-width: 70px;
+    font-size: 18px;
   }
+
   .about-skill hr {
+    width: 70%;
     height: 6px;
+    background: linear-gradient(267deg, #0097b2 0.36%, #b923e1 102.06%);
   }
   .about-achievements {
     justify-content: space-between;
@@ -173,7 +189,7 @@
     gap: 10px;
   }
   .about-achievement h1 {
-    font-size: 34px;
+    font-size: 35px;
     font-weight: 700;
   }
   .about-achievement p {

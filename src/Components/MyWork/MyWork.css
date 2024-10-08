@@ -25,7 +25,7 @@
 
 .mywork-container img {
   box-sizing: border-box;
-  width: 300px;
+  width: 350px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -61,9 +61,6 @@
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .mywork {
-    background-color: #b923e1;
-  }
   .mywork-title h1 {
     font-size: 75px;
   }
@@ -75,12 +72,12 @@
 @media (max-width: 768px) {
   .mywork {
     gap: 50px;
-    margin: 50px 70px;
+    margin: 50px 60px;
     align-items: start;
   }
   .mywork-title h1 {
     padding: 0;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
   }
   .mywork-container {
