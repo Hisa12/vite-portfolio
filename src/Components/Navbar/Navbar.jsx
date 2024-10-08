@@ -19,7 +19,9 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <img src={logo} alt="logo" width="60px" />
+      <div className="nav-logo">
+        <img src={logo} alt="logo" width="60px" />
+      </div>
 
       <FontAwesomeIcon
         icon={faBars}

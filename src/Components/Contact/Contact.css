@@ -60,10 +60,30 @@
   gap: 20px;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact {
+    margin: 180px 100px;
+  }
+  .contact-title h1 {
+    padding: 0;
+    font-size: 75px;
+    font-weight: 600;
+  }
+  .contact-center h1 {
+    font-size: 58px;
+  }
+  .contact-center p {
+    font-size: 20px;
+  }
+  .contact-detail {
+    gap: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .contact {
     gap: 50px;
-    margin: 50px 70px;
+    margin: 50px 30px;
     align-items: start;
   }
   .contact-title h1 {
@@ -79,7 +99,7 @@
     flex-direction: column;
   }
   .contact-center h1 {
-    font-size: 54px;
+    font-size: 50px;
   }
   .contact-center p {
     font-size: 18px;
@@ -89,5 +109,11 @@
   }
   .mail-icon {
     width: 25px;
+  }
+  .contact-center {
+    align-items: start;
+
+    text-align: start;
+    flex-direction: column;
   }
 }

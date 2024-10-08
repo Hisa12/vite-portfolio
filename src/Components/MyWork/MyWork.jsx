@@ -1,4 +1,3 @@
-import React from "react";
 import "./MyWork.css";
 import mywork_data from "../../assets/mywork_data";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

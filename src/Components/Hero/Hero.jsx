@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.css";
 import photo from "../../assets/photo.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -8,7 +7,7 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={photo} alt="photo" width="300px" />
       <h1>
-        <span>Hello! I'm Hisa.</span>
+        <span>Hello! I am Hisa.</span>
       </h1>
       <p>
         I am a graduate IT professional passionate about software development,
