@@ -38,27 +38,52 @@ const Navbar = () => {
           style={{ cursor: "pointer" }}
         />
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#home">
+          <AnchorLink
+            className="anchor-link"
+            offset={50}
+            href="#home"
+            onClick={closeMenu}
+          >
             <p>Home</p>
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#about">
+          <AnchorLink
+            className="anchor-link"
+            offset={50}
+            href="#about"
+            onClick={closeMenu}
+          >
             <p>About Me</p>
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#services">
+          <AnchorLink
+            className="anchor-link"
+            offset={50}
+            href="#services"
+            onClick={closeMenu}
+          >
             <p>Services</p>
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#mywork">
+          <AnchorLink
+            className="anchor-link"
+            offset={50}
+            href="#mywork"
+            onClick={closeMenu}
+          >
             <p>My Work</p>
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#contact">
+          <AnchorLink
+            className="anchor-link"
+            offset={50}
+            href="#contact"
+            onClick={closeMenu}
+          >
             <p>Contact</p>
           </AnchorLink>
         </li>
