@@ -11,7 +11,7 @@ const Hero = () => {
       </h1>
       <p>
         I am a graduate IT professional passionate about software development,
-        particularly in JavaScript, React JS, Node JS.
+        particularly in JavaScript, React JS, and Node JS.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
