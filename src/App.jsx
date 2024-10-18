@@ -6,17 +6,19 @@ import Services from "./Components/Services/Services";
 import MyWork from "./Components/MyWork/MyWork";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import Modal from "./Components/Modals/Modal";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <About />
       <Services />
       <MyWork />
       <Contact />
-      <Footer />
+      <Footer /> */}
+      <Modal />
     </div>
   );
 };
