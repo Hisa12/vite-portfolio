@@ -1,5 +1,4 @@
 import "./Modal.css";
-import taskManage from "../../assets/taskManage.png";
 import { faX } from "@fortawesome/free-solid-svg-icons/faX";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -39,15 +38,18 @@ const Modal = ({ project, handleClose }) => {
                 ) : null;
               })}
             </div>
-            {/* <div className="project-skills">
-              {w_detail[0].w_skills[0].map((skill, index) => {
-                <div className="project-skillTag">
-                  <span key={index} className="skill">
-                    {skill}
-                  </span>
-                </div>;
+            <div className="project-skills">
+              {w_skills.map((skill, index) => {
+                return w_skills ? (
+                  <div className="project-skillTag">
+                    <span key={index} className="skill">
+                      {skill}
+                    </span>
+                  </div>
+                ) : null;
               })}
-            </div> */}
+            </div>
+            <p></p>
             <div className="project-description">
               <p>{w_description}</p>
             </div>

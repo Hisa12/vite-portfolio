@@ -23,14 +23,14 @@ const mywork_data = [
             alt: "website",
           },
           {
-            link: "aaa",
+            link: null,
             icon: faVideo,
             alt: "video",
           },
         ],
         w_skills: ["Swift", "Firebase", "XCode"],
         w_description:
-          "This app helps you to manage tasks. So your life gonna be easier!",
+          "My To-Do Task App is designed to help users efficiently manage their tasks and boost productivity. Whether you're planning daily errands or managing complex projects, this app simplifies the process of tracking your to-dos.",
       },
     ],
   },
@@ -42,7 +42,7 @@ const mywork_data = [
       {
         w_links: [
           {
-            link: "https://github.com/Hisa12/swift-todolist",
+            link: null,
             icon: "faGithub",
             alt: "github",
           },
@@ -57,21 +57,20 @@ const mywork_data = [
             alt: "video",
           },
         ],
-        w_skills: ["Swift", "Firebase", "XCode"],
-        w_description:
-          "This app helps you to manage tasks. So your life gonna be easier!",
+        w_skills: null,
+        w_description: null,
       },
     ],
   },
   {
     w_no: 3,
     w_name: "Task Management",
-    w_img: taskManage,
+    w_img: comingSoon,
     w_detail: [
       {
         w_links: [
           {
-            link: "https://github.com/Hisa12/swift-todolist",
+            link: null,
             icon: "faGithub",
             alt: "github",
           },
@@ -86,9 +85,8 @@ const mywork_data = [
             alt: "video",
           },
         ],
-        w_skills: ["Swift", "Firebase", "XCode"],
-        w_description:
-          "This app helps you to manage tasks. So your life gonna be easier!",
+        w_skills: null,
+        w_description: null,
       },
     ],
   },
