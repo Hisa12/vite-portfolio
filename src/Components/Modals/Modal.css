@@ -24,7 +24,7 @@
   border-radius: 2%;
   transform: translate(-50%, -50%);
   display: flex;
-  background-color: rgb(41, 4, 4);
+  background-color: rgb(0, 0, 0);
 }
 
 .modal-left {
@@ -68,6 +68,12 @@
   gap: 10px;
 }
 
+.project-links a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #6ac5fe;
+}
+
 .project-icon {
   width: 50px;
   cursor: pointer;
@@ -81,12 +87,12 @@
 .project-skillTag {
   padding: 5px 8px;
   border-radius: 10px;
-  background-color: rgb(0, 152, 97);
+  background-color: #b923e2;
   color: #fff;
 }
 
 .skill {
-  font-size: 22px;
+  font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100px;
@@ -94,6 +100,9 @@
 
 .project-description {
   width: 90%;
+}
+.project-description p {
+  font-size: 20px;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -143,6 +152,13 @@
     padding: 0 0;
     gap: 10px;
   }
+  .project-description p {
+    font-size: 18px;
+  }
+
+  .skill {
+    font-size: 18px;
+  }
 }
 @media (max-width: 768px) {
   .modal-container {
@@ -177,6 +193,9 @@
     padding: 0 0;
     gap: 10px;
   }
+  .project-skillTag {
+    padding: 3px 6px;
+  }
   .project-content h1 {
     font-size: 28px;
   }
@@ -184,6 +203,9 @@
     font-size: 18px;
   }
   .skill {
+    font-size: 16px;
+  }
+  .project-links a {
     font-size: 18px;
   }
 }

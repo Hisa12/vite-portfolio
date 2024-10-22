@@ -29,11 +29,7 @@ const Modal = ({ project, handleClose }) => {
               {w_links.map((linkItem, index) => {
                 return linkItem.link ? (
                   <a key={index} href={linkItem.link} target="_blank" rel="no">
-                    <FontAwesomeIcon
-                      className="project-icon"
-                      icon={linkItem.icon}
-                      alt={linkItem.alt}
-                    />
+                    {linkItem.name}
                   </a>
                 ) : null;
               })}
