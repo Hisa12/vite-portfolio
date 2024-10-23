@@ -14,13 +14,14 @@ const Hero = () => {
         particularly in JavaScript, React JS, and Node JS.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">
-          <AnchorLink className="anchor-link" offset={50} href="#contact">
-            Connect with me
+        <AnchorLink className="hero-connect" offset={50} href="#contact">
+          Connect
+        </AnchorLink>
+        <div className="hero-work">
+          <AnchorLink className="anchor-link" offset={50} href="#mywork">
+            Check My Work
           </AnchorLink>
         </div>
-
-        <div className="hero-resume">My resume</div>
       </div>
     </div>
   );
