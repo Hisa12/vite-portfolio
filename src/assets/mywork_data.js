@@ -1,6 +1,7 @@
 import taskManage from "../assets/taskManage.png";
 import tictactoe from "../assets/tictactoe.png";
 import libraryManage from "../assets/libraryManage.png";
+import weatherApp from "../assets/weatherApp.png";
 
 const mywork_data = [
   {
@@ -62,6 +63,28 @@ const mywork_data = [
         w_skills: ["C#", ".NET"],
         w_description:
           "The Community Library DVD Management App is a console application built in C# designed to manage a community library's DVD collection and member information.",
+      },
+    ],
+  },
+  {
+    w_no: 4,
+    w_name: "Weather Forecast App",
+    w_img: weatherApp,
+    w_detail: [
+      {
+        w_links: [
+          {
+            link: "https://github.com/Hisa12/weather-app",
+            name: "GitHub",
+          },
+          {
+            link: "https://check-weather123.netlify.app/",
+            name: "Website",
+          },
+        ],
+        w_skills: ["JavaScript", "React", "Node", "ChakraUI", "API"],
+        w_description:
+          "The Weather Forecast App is a user-friendly application that allows users to search for a city and view the current weather, hourly forecast, and a 3-day weather outlook.",
       },
     ],
   },

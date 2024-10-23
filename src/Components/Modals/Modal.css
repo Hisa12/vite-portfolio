@@ -49,6 +49,7 @@
 
 .project-content {
   display: flex;
+  width: 80%;
   flex-direction: column;
   justify-content: center;
   text-align: start;
@@ -82,6 +83,7 @@
 
 .project-skills {
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
 }
 .project-skillTag {
@@ -95,14 +97,13 @@
   font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 100px;
 }
 
 .project-description {
-  width: 90%;
+  width: 100%;
 }
 .project-description p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -187,6 +188,7 @@
   }
   .project-content {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     margin-top: 5px;
@@ -200,7 +202,7 @@
     font-size: 28px;
   }
   .project-content p {
-    font-size: 18px;
+    font-size: 17px;
   }
   .skill {
     font-size: 16px;
